@@ -1,3 +1,5 @@
+### Stephanie: I want to edit this file
+
 CONFLIST TYR        TYRBK TYR01 TYR-1
 
 NATOM    TYRBK      6
@@ -11,8 +13,8 @@ IATOM    TYRBK  HA  3
 IATOM    TYRBK  C   4
 IATOM    TYRBK  O   5
 IATOM    TYR01  CB  0
-IATOM    TYR01 1HB  1
-IATOM    TYR01 2HB  2
+IATOM    TYR01  HB2 1
+IATOM    TYR01  HB3 2
 IATOM    TYR01  CG  3
 IATOM    TYR01  CD1 4
 IATOM    TYR01  HD1 5
@@ -26,8 +28,8 @@ IATOM    TYR01  CZ  12
 IATOM    TYR01  OH  13
 IATOM    TYR01  HH  14
 IATOM    TYR-1  CB  0
-IATOM    TYR-1 1HB  1
-IATOM    TYR-1 2HB  2
+IATOM    TYR-1  HB2 1
+IATOM    TYR-1  HB3 2
 IATOM    TYR-1  CG  3
 IATOM    TYR-1  CD1 4
 IATOM    TYR-1  HD1 5
@@ -47,8 +49,8 @@ ATOMNAME TYRBK    3  HA
 ATOMNAME TYRBK    4  C  
 ATOMNAME TYRBK    5  O  
 ATOMNAME TYR01    0  CB 
-ATOMNAME TYR01    1 1HB 
-ATOMNAME TYR01    2 2HB 
+ATOMNAME TYR01    1  HB2 
+ATOMNAME TYR01    2  HB3 
 ATOMNAME TYR01    3  CG 
 ATOMNAME TYR01    4  CD1
 ATOMNAME TYR01    5  HD1
@@ -62,8 +64,8 @@ ATOMNAME TYR01   12  CZ
 ATOMNAME TYR01   13  OH 
 ATOMNAME TYR01   14  HH 
 ATOMNAME TYR-1    0  CB 
-ATOMNAME TYR-1    1 1HB 
-ATOMNAME TYR-1    2 2HB 
+ATOMNAME TYR-1    1  HB2 
+ATOMNAME TYR-1    2  HB3 
 ATOMNAME TYR-1    3  CG 
 ATOMNAME TYR-1    4  CD1
 ATOMNAME TYR-1    5  HD1
@@ -115,9 +117,9 @@ CONNECT  TYRBK  HA  s         0     CA
 CONNECT  TYRBK  C   sp2       0     CA  0     O   1     N
 CONNECT  TYRBK  O   sp2       0     C
 
-CONNECT  TYR01  CB  sp3       0     CA  0     CG  0    1HB  0    2HB
-CONNECT  TYR01 1HB  s         0     CB
-CONNECT  TYR01 2HB  s         0     CB
+CONNECT  TYR01  CB  sp3       0     CA  0     CG  0     HB2  0    HB3
+CONNECT  TYR01  HB2 s         0     CB
+CONNECT  TYR01  HB3 s         0     CB
 CONNECT  TYR01  CG  sp2       0     CB  0     CD1 0     CD2
 CONNECT  TYR01  CD1 sp2       0     CG  0     CE1 0     HD1
 CONNECT  TYR01  HD1 s         0     CD1
@@ -131,9 +133,9 @@ CONNECT  TYR01  CZ  sp2       0     CE1 0     CE2 0     OH
 CONNECT  TYR01  OH  sp3       0     CZ  0     HH
 CONNECT  TYR01  HH  s         0     OH
 
-CONNECT  TYR-1  CB  sp3       0     CA  0     CG  0    1HB  0    2HB
-CONNECT  TYR-1 1HB  s         0     CB
-CONNECT  TYR-1 2HB  s         0     CB
+CONNECT  TYR-1  CB  sp3       0     CA  0     CG  0    HB2  0    HB3
+CONNECT  TYR-1  HB2 s         0     CB
+CONNECT  TYR-1  HB3 s         0     CB
 CONNECT  TYR-1  CG  sp2       0     CB  0     CD1 0     CD2
 CONNECT  TYR-1  CD1 sp2       0     CG  0     CE1 0     HD1
 CONNECT  TYR-1  HD1 s         0     CD1
@@ -161,8 +163,8 @@ RADIUS   TYR    HA  0.00
 RADIUS   TYR    C   1.70
 RADIUS   TYR    O   1.40
 RADIUS   TYR    CB  2.00
-RADIUS   TYR   1HB  0.00
-RADIUS   TYR   2HB  0.00
+RADIUS   TYR    HB2 0.00
+RADIUS   TYR    HB3 0.00
 RADIUS   TYR    CG  1.70
 RADIUS   TYR    CD1 1.70
 RADIUS   TYR    HD1 1.00

@@ -1,3 +1,4 @@
+#This is stephanie, I want to edit this file
 CONFLIST SER        SERBK SER01
 
 NATOM    SERBK      6
@@ -10,8 +11,8 @@ IATOM    SERBK  HA  3
 IATOM    SERBK  C   4
 IATOM    SERBK  O   5
 IATOM    SER01  CB  0
-IATOM    SER01 1HB  1
-IATOM    SER01 2HB  2
+IATOM    SER01  HB2 1
+IATOM    SER01  HB3 2
 IATOM    SER01  OG  3
 IATOM    SER01  HG  4
 
@@ -22,8 +23,8 @@ ATOMNAME SERBK    3  HA
 ATOMNAME SERBK    4  C  
 ATOMNAME SERBK    5  O  
 ATOMNAME SER01    0  CB 
-ATOMNAME SER01    1 1HB 
-ATOMNAME SER01    2 2HB 
+ATOMNAME SER01    1  HB2 
+ATOMNAME SER01    2  HB3 
 ATOMNAME SER01    3  OG 
 ATOMNAME SER01    4  HG 
 
@@ -48,9 +49,9 @@ CONNECT  SERBK  CA  sp3       0     N   0     C   0     CB  0     HA
 CONNECT  SERBK  HA  s         0     CA
 CONNECT  SERBK  C   sp2       0     CA  0     O   1     N
 CONNECT  SERBK  O   sp2       0     C
-CONNECT  SER01  CB  sp3       0     CA  0     OG  0    1HB  0    2HB
-CONNECT  SER01 1HB  s         0     CB
-CONNECT  SER01 2HB  s         0     CB
+CONNECT  SER01  CB  sp3       0     CA  0     OG  0     HB2  0     HB3
+CONNECT  SER01  HB2  s         0     CB
+CONNECT  SER01  HB3  s         0     CB
 CONNECT  SER01  OG  sp3       0     CB  0     HG
 CONNECT  SER01  HG  s         0     OG
 #23456789A123456789B123456789C123456789D123456789E123456789F123456789G123456789H123456789I
@@ -78,8 +79,8 @@ RADIUS   SER    HA  0.00
 RADIUS   SER    C   1.70
 RADIUS   SER    O   1.40
 RADIUS   SER    CB  2.00
-RADIUS   SER   1HB  0.00
-RADIUS   SER   2HB  0.00
+RADIUS   SER    HB2 0.00
+RADIUS   SER    HB3 0.00
 RADIUS   SER    OG  1.40
 RADIUS   SER    HG  1.00
 
@@ -89,3 +90,4 @@ RADIUS   SER    HG  1.00
 #-------|---|----|-|---------|----|----|----|----|----|----|----|----|----
 ROTAMER  SER   0     CA - CB   OG
 #=========================================================================
+≈

@@ -1,3 +1,5 @@
+###This is Stephanie, I want to edit this file
+
 CONFLIST TRP        TRPBK TRP01
 
 NATOM    TRPBK      6
@@ -10,8 +12,8 @@ IATOM    TRPBK  HA  3
 IATOM    TRPBK  C   4
 IATOM    TRPBK  O   5
 IATOM    TRP01  CB  0
-IATOM    TRP01 1HB  1
-IATOM    TRP01 2HB  2
+IATOM    TRP01  HB2 1
+IATOM    TRP01  HB3 2
 IATOM    TRP01  CG  3
 IATOM    TRP01  CD1 4
 IATOM    TRP01  HD1 5
@@ -35,8 +37,8 @@ ATOMNAME TRPBK    3  HA
 ATOMNAME TRPBK    4  C  
 ATOMNAME TRPBK    5  O  
 ATOMNAME TRP01    0  CB 
-ATOMNAME TRP01    1 1HB 
-ATOMNAME TRP01    2 2HB 
+ATOMNAME TRP01    1  HB2 
+ATOMNAME TRP01    2  HB3 
 ATOMNAME TRP01    3  CG 
 ATOMNAME TRP01    4  CD1
 ATOMNAME TRP01    5  HD1
@@ -73,9 +75,9 @@ CONNECT  TRPBK  CA  sp3       0     N   0     C   0     CB  0     HA
 CONNECT  TRPBK  HA  s         0     CA
 CONNECT  TRPBK  C   sp2       0     CA  0     O   1     N
 CONNECT  TRPBK  O   s         0     C
-CONNECT  TRP01  CB  sp3       0     CA  0     CG  0    1HB  0    2HB
-CONNECT  TRP01 1HB  s         0     CB
-CONNECT  TRP01 2HB  s         0     CB
+CONNECT  TRP01  CB  sp3       0     CA  0     CG  0     HB2  0     HB3
+CONNECT  TRP01  HB2 s         0     CB
+CONNECT  TRP01  HB3 s         0     CB
 CONNECT  TRP01  CG  sp2       0     CB  0     CD1 0     CD2
 CONNECT  TRP01  CD1 sp2       0     CG  0     NE1 0     HD1
 CONNECT  TRP01  HD1 s         0     CD1
@@ -109,8 +111,8 @@ RADIUS   TRP    HA  0.00
 RADIUS   TRP    C   1.70
 RADIUS   TRP    O   1.40
 RADIUS   TRP    CB  2.00
-RADIUS   TRP   1HB  0.00
-RADIUS   TRP   2HB  0.00
+RADIUS   TRP    HB2 0.00
+RADIUS   TRP    HB3 0.00
 RADIUS   TRP    CG  1.70
 RADIUS   TRP    CD1 1.70
 RADIUS   TRP    HD1 1.00

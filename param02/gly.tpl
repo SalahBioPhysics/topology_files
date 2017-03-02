@@ -1,3 +1,4 @@
+### This is Stephanie, I want to edit this file
 CONFLIST GLY        GLYBK 
 
 NATOM    GLYBK      7
@@ -5,16 +6,16 @@ NATOM    GLYBK      7
 IATOM    GLYBK  N   0
 IATOM    GLYBK  H   1
 IATOM    GLYBK  CA  2
-IATOM    GLYBK 1HA  3
-IATOM    GLYBK 2HA  4
+IATOM    GLYBK HA2  3
+IATOM    GLYBK HA3  4
 IATOM    GLYBK  O   5
 IATOM    GLYBK  C   6
 
 ATOMNAME GLYBK    0  N  
 ATOMNAME GLYBK    1  H  
 ATOMNAME GLYBK    2  CA 
-ATOMNAME GLYBK    3 1HA 
-ATOMNAME GLYBK    4 2HA 
+ATOMNAME GLYBK    3 HA2 
+ATOMNAME GLYBK    4 HA3 
 ATOMNAME GLYBK    5  O  
 ATOMNAME GLYBK    6  C  
 
@@ -31,9 +32,9 @@ ATOMNAME GLYBK    6  C
 #ONNECT |-----|----|---------|----|----|----|----|----|----|----|----|----|----|----|----|
 CONNECT  GLYBK  N   sp2       -1    C   0     CA  0     H
 CONNECT  GLYBK  H   s         0     N
-CONNECT  GLYBK  CA  sp3       0     N   0     C   0    1HA  0    2HA
-CONNECT  GLYBK 1HA  s         0     CA
-CONNECT  GLYBK 2HA  s         0     CA 
+CONNECT  GLYBK  CA  sp3       0     N   0     C   0    HA2  0    HA3
+CONNECT  GLYBK HA2  s         0     CA
+CONNECT  GLYBK HA3  s         0     CA 
 CONNECT  GLYBK  O   sp2       0     C 
 CONNECT  GLYBK  C   sp2       0     CA  0     O   1     N
 
@@ -42,8 +43,8 @@ CONNECT  GLYBK  C   sp2       0     CA  0     O   1     N
 RADIUS   GLY    N   1.50
 RADIUS   GLY    H   1.00
 RADIUS   GLY    CA  2.00
-RADIUS   GLY   1HA  0.00
-RADIUS   GLY   2HA  0.00
+RADIUS   GLY   HA2  0.00
+RADIUS   GLY   HA3  0.00
 RADIUS   GLY    O   1.40
 RADIUS   GLY    C   1.70
 

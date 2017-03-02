@@ -1,3 +1,5 @@
+### This is Stephanie, I want to edit this file 
+
 CONFLIST PRO        PROBK PRO01
 
 NATOM    PROBK      5
@@ -9,14 +11,14 @@ IATOM    PROBK  HA  2
 IATOM    PROBK  C   3
 IATOM    PROBK  O   4
 IATOM    PRO01  CB  0
-IATOM    PRO01 1HB  1
-IATOM    PRO01 2HB  2
+IATOM    PRO01  HB2 1
+IATOM    PRO01  HB3 2
 IATOM    PRO01  CG  3
-IATOM    PRO01 1HG  4
-IATOM    PRO01 2HG  5
+IATOM    PRO01  HG2 4
+IATOM    PRO01  HG3 5
 IATOM    PRO01  CD  6
-IATOM    PRO01 1HD  7
-IATOM    PRO01 2HD  8
+IATOM    PRO01  HD2 7
+IATOM    PRO01  HD3 8
 
 ATOMNAME PROBK    0  N  
 ATOMNAME PROBK    1  CA 
@@ -24,14 +26,14 @@ ATOMNAME PROBK    2  HA
 ATOMNAME PROBK    3  C  
 ATOMNAME PROBK    4  O  
 ATOMNAME PRO01    0  CB 
-ATOMNAME PRO01    1 1HB 
-ATOMNAME PRO01    2 2HB 
+ATOMNAME PRO01    1  HB2
+ATOMNAME PRO01    2  HB3 
 ATOMNAME PRO01    3  CG 
-ATOMNAME PRO01    4 1HG 
-ATOMNAME PRO01    5 2HG 
+ATOMNAME PRO01    4  HG2 
+ATOMNAME PRO01    5  HG3 
 ATOMNAME PRO01    6  CD
-ATOMNAME PRO01    7 1HD
-ATOMNAME PRO01    8 2HD
+ATOMNAME PRO01    7  HD2
+ATOMNAME PRO01    8  HD3
 
 
 
@@ -53,15 +55,15 @@ CONNECT  PROBK  CA  sp3       0     N   0     C   0     CB  0     HA
 CONNECT  PROBK  HA  s         0     CA
 CONNECT  PROBK  C   sp2       0     CA  0     O   1     N
 CONNECT  PROBK  O   s         0     C
-CONNECT  PRO01  CB  sp3       0     CA  0     CG  0    1HB  0    2HB
-CONNECT  PRO01 1HB  s         0     CB
-CONNECT  PRO01 2HB  s         0     CB
-CONNECT  PRO01  CG  sp3       0     CB  0     CD  0    1HG  0    2HG
-CONNECT  PRO01 1HG  s         0     CG
-CONNECT  PRO01 2HG  s         0     CG
-CONNECT  PRO01  CD  sp3       0     CG  0     N   0    1HD  0    2HD
-CONNECT  PRO01 1HD  s         0     CD
-CONNECT  PRO01 2HD  s         0     CD
+CONNECT  PRO01  CB  sp3       0     CA  0     CG  0     HB2  0    HB3
+CONNECT  PRO01 HB2  s         0     CB
+CONNECT  PRO01 HB3  s         0     CB
+CONNECT  PRO01  CG  sp3       0     CB  0     CD  0     HG2  0    HG3
+CONNECT  PRO01 HG2  s         0     CG
+CONNECT  PRO01 HG3  s         0     CG
+CONNECT  PRO01  CD  sp3       0     CG  0     N   0     HD2  0    HD3
+CONNECT  PRO01 HD2  s         0     CD
+CONNECT  PRO01 HD3  s         0     CD
 
 #3.Atom Parameters: Partial Charges and Radii
 CHARGE   PROBK N    -0.100
@@ -76,14 +78,14 @@ RADIUS   PRO    HA  0.00
 RADIUS   PRO    C   1.70
 RADIUS   PRO    O   1.40
 RADIUS   PRO    CB  2.00
-RADIUS   PRO   1HB  0.00
-RADIUS   PRO   2HB  0.00
+RADIUS   PRO   HB2  0.00
+RADIUS   PRO   HB3  0.00
 RADIUS   PRO    CG  2.00
-RADIUS   PRO   1HG  0.00
-RADIUS   PRO   2HG  0.00
+RADIUS   PRO   HG2  0.00
+RADIUS   PRO   HG3  0.00
 RADIUS   PRO    CD  2.00
-RADIUS   PRO   1HD  2.00
-RADIUS   PRO   2HD  2.00
+RADIUS   PRO   HD2  2.00
+RADIUS   PRO   HD3  2.00
 
 #4.Rotomer
 
